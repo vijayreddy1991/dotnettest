@@ -11,5 +11,4 @@ jobs:
              imageName: "drydock/w16dotnetcore"
              imageTag: master
          script:        
-           - dotnet --info
            - dotnet --version
