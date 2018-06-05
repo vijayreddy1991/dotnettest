@@ -5,8 +5,8 @@ jobs:
    runtime:
      nodePool: dynamic__x86_64__WindowsServer_2016__c4_large
    steps:
-     - TASK:
-     - IN: w16test 
+     - IN: w16test
+     - TASK: 
          runtime:
            options:
              imageName: "drydock/w16dotnetcore"
