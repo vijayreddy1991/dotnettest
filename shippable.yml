@@ -13,3 +13,4 @@ jobs:
              imageTag: master
          script:        
            - dotnet --version
+           - dotnet --info
